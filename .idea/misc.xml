@@ -17,7 +17,6 @@
         <entry key="..\:/Users/COMPAQ/AndroidStudioProjects/laUltimaChanceAgs/app/src/main/res/layout/fragment_carro.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/COMPAQ/AndroidStudioProjects/laUltimaChanceAgs/app/src/main/res/layout/fragment_cuenta.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/COMPAQ/AndroidStudioProjects/laUltimaChanceAgs/app/src/main/res/layout/fragment_home.xml" value="0.19635416666666666" />
-        <entry key="..\:/Users/carol/AndroidStudioProjects/LaUltimaChanceAGS2/ultimaChance/app/src/main/res/layout/activity_checkout.xml" value="0.15" />
         <entry key="..\:/Users/carol/AndroidStudioProjects/laUltimaChanceAgs/app/src/main/res/drawable-v24/background_btn.xml" value="0.2203125" />
         <entry key="..\:/Users/carol/AndroidStudioProjects/laUltimaChanceAgs/app/src/main/res/drawable/card_background.xml" value="0.2203125" />
         <entry key="..\:/Users/carol/AndroidStudioProjects/laUltimaChanceAgs/app/src/main/res/layout/activity_bebidas.xml" value="0.25" />
@@ -47,6 +46,13 @@
         <entry key="..\:/Users/malon/Desktop/LaUltimaChance/app/src/main/res/layout/fragment_cuenta.xml" value="0.184375" />
         <entry key="..\:/Users/malon/Desktop/LaUltimaChance/app/src/main/res/layout/fragment_home.xml" value="0.1403985507246377" />
         <entry key="..\:/Users/malon/Desktop/LaUltimaChance/app/src/main/res/menu/bottom_navigation.xml" value="0.264" />
+        <entry key="..\:/Users/malon/Documents/Tec/7moSemestre/Moviles/U3/LaUltimaChance/app/src/main/res/layout/activity_botanas.xml" value="0.1286231884057971" />
+        <entry key="..\:/Users/malon/Documents/Tec/7moSemestre/Moviles/U3/LaUltimaChance/app/src/main/res/layout/activity_configuracion.xml" value="0.2" />
+        <entry key="..\:/Users/malon/Documents/Tec/7moSemestre/Moviles/U3/LaUltimaChance/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/malon/Documents/Tec/7moSemestre/Moviles/U3/LaUltimaChance/app/src/main/res/layout/activity_main.xml" value="0.1286231884057971" />
+        <entry key="..\:/Users/malon/Documents/Tec/7moSemestre/Moviles/U3/LaUltimaChance/app/src/main/res/layout/activity_register.xml" value="0.1286231884057971" />
+        <entry key="..\:/Users/malon/Documents/Tec/7moSemestre/Moviles/U3/LaUltimaChance/app/src/main/res/layout/fragment_carro.xml" value="0.1286231884057971" />
+        <entry key="..\:/Users/malon/Documents/Tec/7moSemestre/Moviles/U3/LaUltimaChance/app/src/main/res/layout/fragment_cuenta.xml" value="0.1286231884057971" />
       </map>
     </option>
   </component>
