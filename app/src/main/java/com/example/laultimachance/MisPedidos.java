@@ -32,13 +32,4 @@ public class MisPedidos extends AppCompatActivity {
         recycler.setAdapter(adapter);
     }
 
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-
-        Intent backToCuenta = new Intent(this, Cuenta.class);
-        startActivity(backToCuenta);
-        finish();
-    }
-
 }

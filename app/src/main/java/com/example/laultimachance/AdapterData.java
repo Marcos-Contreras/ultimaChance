@@ -16,7 +16,7 @@ public class AdapterData extends RecyclerView.Adapter<AdapterData.ViewHolderData
     ArrayList<String> listDatos;
 
     public AdapterData(ArrayList<String> listDatos) {
-        listDatos = listDatos;
+        this.listDatos = listDatos;
     }
 
     @NonNull
@@ -41,7 +41,7 @@ public class AdapterData extends RecyclerView.Adapter<AdapterData.ViewHolderData
 
         public ViewHolderData(@NonNull View itemView) {
             super(itemView);
-            dato=itemView.findViewById(R.id.idPedido);
+            dato= (TextView) itemView.findViewById(R.id.idPedido);
         }
 
         public void asignarDatos(String s) {
