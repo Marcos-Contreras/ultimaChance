@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Novedades extends AppCompatActivity implements View.OnClickListener {
+public class Novedades extends AppCompatActivity {
 
     Button carritofragment;
     @Override
@@ -28,7 +28,7 @@ public class Novedades extends AppCompatActivity implements View.OnClickListener
     @Override
     public void onClick(View v) {
         if (v.getId()==R.id.button1){
-            getSupportFragmentManager().beginTransaction().replace(R.id.scrollView, new Carro()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.container, new Carro()).commit();
         }
     }
 }
