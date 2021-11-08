@@ -46,13 +46,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginBottom="184dp"
+        android:layout_marginBottom="172dp"
         android:background="#a81919"
+        android:onClick="Acceder"
         android:text="@string/ingresarMercadopago"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -63,6 +64,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
         android:background="#a81919"
+        android:onClick="Ingresar"
         android:text="@string/ingresarPaypal"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,3 +73,4 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+

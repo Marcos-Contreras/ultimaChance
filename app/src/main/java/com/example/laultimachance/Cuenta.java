@@ -100,6 +100,15 @@ public class Cuenta extends Fragment {
             }
         });
 
+        Button btnConfiguracion = (Button) view.findViewById(R.id.button_Configuracion);
+        btnConfiguracion.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent toConfiguracion = new Intent(getActivity(), Configuracion.class);
+                startActivity(toConfiguracion);
+            }
+        });
+
 
         return view;
     }

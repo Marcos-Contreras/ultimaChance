@@ -27,6 +27,7 @@
     <string name="politicas_de_envios_y_devoluciones">Políticas de Envíos y Devoluciones</string>
     <string name="PoliEnviosCnt">Los precios publicados en el sitio NO incluyen costo de envío dentro de la República Mexicana salvo cuando expresamente lo indique algún equipo o alguna promoción en particular, los precios de los productos pueden cambiar en cualquier momento sin previo aviso, no se pueden combinar promociones de otros medios distintos a los presentados en este sitio. El cliente se compromete a proporcionar una dirección válida localizable dentro de la república mexicana donde pueda entregársele el pedido. En caso de que el cliente proporcione una dirección que no sea localizada por la paquetería, cualquier otro costo adicional será cubierto por el cliente mismo.</string>
 
+
     //Finalizar compra
     <string name="gracias_por_su_compra">Gracias Por Su Compra</string>
     <string name="n_mero_de_compra">Número de compra:</string>
