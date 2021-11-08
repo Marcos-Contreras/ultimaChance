@@ -15,9 +15,9 @@ public class Novedades extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_novedades);
 
-        //Carrito
+        /*Carrito
         carritofragment = findViewById(R.id.button1);
-        carritofragment.setOnClickListener(this);
+        carritofragment.setOnClickListener(this);*/
     }
 
     public void descProduct(View view) {
@@ -25,10 +25,10 @@ public class Novedades extends AppCompatActivity {
         startActivity(des);
     }
 
-    @Override
+    /*@Override
     public void onClick(View v) {
         if (v.getId()==R.id.button1){
             getSupportFragmentManager().beginTransaction().replace(R.id.container, new Carro()).commit();
         }
-    }
+    }*/
 }

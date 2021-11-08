@@ -34,12 +34,12 @@
         android:id="@+id/btnNovedadesHome"
         android:layout_width="350dp"
         android:layout_height="125dp"
+        android:layout_marginTop="20dp"
         android:background="@color/green"
         android:text="Novedades"
-        android:textSize="40sp"
-        android:textStyle="bold"
         android:textColor="@color/white"
-        android:layout_marginTop="20dp" />
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnPaquetesHome"
