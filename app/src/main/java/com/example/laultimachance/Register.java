@@ -18,4 +18,9 @@ public class Register extends AppCompatActivity {
         Intent toLogin = new Intent(this, Login.class);
         startActivity(toLogin);
     }
+
+    public void btnRegistrarse(View view) {
+        Intent toPaginaPrincipal = new Intent(this, PaginaPrincipal.class);
+        startActivity(toPaginaPrincipal);
+    }
 }
