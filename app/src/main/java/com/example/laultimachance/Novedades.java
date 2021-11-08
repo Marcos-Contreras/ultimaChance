@@ -5,13 +5,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
-public class Novedades extends AppCompatActivity {
+public class Novedades extends AppCompatActivity implements View.OnClickListener {
 
+    Button carritofragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_novedades);
+
+        //Carrito
+        carritofragment = findViewById(R.id.button1);
+        carritofragment.setOnClickListener(this);
     }
 
     public void descProduct(View view) {
@@ -19,8 +25,10 @@ public class Novedades extends AppCompatActivity {
         startActivity(des);
     }
 
-    public void btnAnadir(View view) {
-        Intent anadir = new Intent(this, Carro.class);
-        startActivity(anadir);
+    @Override
+    public void onClick(View v) {
+        if (v.getId()==R.id.button1){
+            getSupportFragmentManager().beginTransaction().replace(R.id.scrollView, new Carro()).commit();
+        }
     }
 }

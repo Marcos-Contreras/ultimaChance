@@ -112,8 +112,9 @@
                         android:textStyle="bold"
                         android:textColor="@color/white"
                         android:textSize="8sp"
-                        tools:ignore="DuplicateSpeakableTextCheck"
-                        android:onClick="btnAnadir"/>
+                        android:onClick="this"
+                        tools:ignore="onClick"
+                        />
                 </LinearLayout>
 
                 <LinearLayout
@@ -165,8 +166,9 @@
                         android:background="#a81919"
                         android:textStyle="bold"
                         android:textColor="@color/white"
-                        tools:ignore="DuplicateSpeakableTextCheck"
-                        android:onClick="btnAnadir"/>
+                        android:onClick="this"
+                        tools:ignore="onClick"
+                        />
 
                 </LinearLayout>
             </LinearLayout>
